@@ -1,0 +1,13 @@
+C:\Users\atul\documents\projects\c-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.exe
+C:\Users\atul\documents\projects\c-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.deps.json
+C:\Users\atul\documents\projects\c-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.runtimeconfig.json
+C:\Users\atul\documents\projects\c-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.runtimeconfig.dev.json
+C:\Users\atul\documents\projects\c-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.dll
+C:\Users\atul\documents\projects\c-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.pdb
+C:\Users\atul\documents\projects\c-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.csprojAssemblyReference.cache
+C:\Users\atul\documents\projects\c-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.AssemblyInfoInputs.cache
+C:\Users\atul\documents\projects\c-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.AssemblyInfo.cs
+C:\Users\atul\documents\projects\c-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.csproj.CoreCompileInputs.cache
+C:\Users\atul\documents\projects\c-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.dll
+C:\Users\atul\documents\projects\c-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.pdb
+C:\Users\atul\documents\projects\c-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.genruntimeconfig.cache
