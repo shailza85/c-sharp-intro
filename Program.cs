@@ -36,6 +36,27 @@ namespace c_sharp_intro
         Console.WriteLine(3 + "3"); // 33
         Console.WriteLine("3" + 3); // 33
         Console.WriteLine(3 + 6 + "3"); // 93
+
+        // Output our variable.
+         Console.WriteLine( myInt); //42
+
+         //New assignment for existing variable.
+          myInt = myInt +2;
+           Console.WriteLine(myInt); //44
+
+           // Some shorthands....
+           
+           myInt++; //same as myInt=myInt+1.
+           Console.WriteLine(myInt); //45
+
+           myInt--; //same as myInt=myInt-1.
+           Console.WriteLine(myInt); //44
+
+           myInt+=3;
+           Console.WriteLine(myInt); //47
+
+            myInt-=5;
+           Console.WriteLine(myInt); //42
         }
     }
 }
