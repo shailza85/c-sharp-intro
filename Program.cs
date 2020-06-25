@@ -6,31 +6,36 @@ namespace c_sharp_intro
     {
         static void Main(string[] args)
         {
-            //Two slashes mark the begining of a singlr-line comment.
-            //We are assigning a string value to a variable.
-            string myName = "Shailza Sharma";
-             /* We begin multi-line comments with forward-slash and asterisk...
-             Used concatenantion operator to add variable value to text "Hello".
-            ...and we end multi-line comments with an asterisk followed by a forward-slash */
-            Console.WriteLine("Hello, " + myName);
-Console.WriteLine("Please enter your name...");
-        // Assign variable 'userName' to a value entered by the user.
-            string userName = Console.ReadLine();
-            //@link https://docs.microsoft.com/en-us/dotnet/api/system.console.readline?view=netcore-3.1
+         // "=" is the assignment operator!
+         //String datatype is used for text.
+         string myString = "This is a String";
+        // Integer datatype is used for whole numbers(no decimals).
+        int myInt = 42;
+        // double datatype is used for decimal point numbers.
+        double myDouble = 33.666;
+        // Boolean datatype is used for TRUE/FALSE value - think binary
+        bool myBool = true;
+        
+        // Substraction operator is "-" (minus).
 
-            //Show the user we have collected the name.
-            Console.WriteLine("You have entered:"+userName);
-            //Instead of using concatenantion operator...
-            //We can use string interpolation (placeholders) to embed values in a string.
-            //@link https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated
-            Console.WriteLine("Hey {0}, you are looking great today!", userName);
-    
-    //Let's play with strings!
-    Console.WriteLine("makemeuppercase".ToUpper());
-    Console.WriteLine("MAKEMELOWERCASE".ToLower());
-    //Substring takes two arguments: 1)Starting character position  2) Number of characters to collect.
-    Console.WriteLine("ABCDEFGHIJK".Substring(3,3));
-    Console.WriteLine("XYZ".Length); //GET THE NUMBER OF CHARACTERS IN THE STRING.
+        Console.WriteLine(myInt - 10); //32
+
+        // Multiplication operator is "*" (multiply).
+        Console.WriteLine(myInt * 2); //84
+
+        // Division operator is "/" (division).
+        Console.WriteLine(myInt / 2); // 21
+
+        // Modulus operator is "%" (modulus).
+        Console.WriteLine(myInt % 13); // 3
+
+        // Addition operator is "+" (addition).
+        Console.WriteLine(myInt + 8); // 50
+
+        Console.WriteLine("3" + "3"); // 33
+        Console.WriteLine(3 + "3"); // 33
+        Console.WriteLine("3" + 3); // 33
+        Console.WriteLine(3 + 6 + "3"); // 93
         }
     }
 }
