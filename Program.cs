@@ -6,46 +6,24 @@ namespace c_sharp_intro
     {
         static void Main(string[] args)
         {
-           Console.WriteLine("Please tell us if you want to add,subtract or multiply:");
-           string userOperator = Console.ReadLine();
-
-           if(userOperator == "add")
-             {
-                 Console.WriteLine("Please enter the first number:");
-                 // @ link https://stackoverflow.com/questions/1019793/how-can-i-convert-string-to-int
-                 int firstNum = Int32.Parse(Console.ReadLine ()); //convert the string to integer.
-                Console.WriteLine("Please enter the second number:");
-                 int secondNum = Int32.Parse(Console.ReadLine ());
-                //Calculate the result.
-                int result = firstNum + secondNum;
-                  Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, result);
+           Console.WriteLine("Enter a number:");
+           int userInt = Int32.Parse(Console.ReadLine());
+           if(userInt > 10)
+           {
+            Console.WriteLine("Greater than 10.");
            }
-              else if(userOperator == "subtract")
-              {
-               Console.WriteLine("Please enter the first number:");
-                 // @ link https://stackoverflow.com/questions/1019793/how-can-i-convert-string-to-int
-                 int firstNum = Int32.Parse(Console.ReadLine ()); //convert the string to integer.
-                Console.WriteLine("Please enter the second number:");
-                 int secondNum = Int32.Parse(Console.ReadLine ());
-                //Calculate the result.
-                int result = firstNum - secondNum;
-                  Console.WriteLine("{0} - {1} = {2}", firstNum, secondNum, result);
-              }
-              else if(userOperator == "multiply")
-              {
-               Console.WriteLine("Please enter the first number:");
-                 // @ link https://stackoverflow.com/questions/1019793/how-can-i-convert-string-to-int
-                 int firstNum = Int32.Parse(Console.ReadLine ()); //convert the string to integer.
-                Console.WriteLine("Please enter the second number:");
-                 int secondNum = Int32.Parse(Console.ReadLine ());
-                //Calculate the result.
-                int result = firstNum * secondNum;
-                  Console.WriteLine("{0} * {1} = {2}", firstNum, secondNum, result);
-              }
-              else {
-                  Console.WriteLine("Invalid operator entered.");
-              }
+           else if (userInt > 5)
+           {
+            Console.WriteLine("Greater than 5 but less than 11.");
+           }
+            else if ( userInt < 0 )
+            {
+                Console.WriteLine( "A negative number." );
+            }
+            else
+            {
+                Console.WriteLine( "Number is between 0 and 5." );
+            }
            }
            }
-
-        }
+           }
