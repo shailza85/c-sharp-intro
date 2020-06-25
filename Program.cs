@@ -6,16 +6,21 @@ namespace c_sharp_intro
     {
         static void Main(string[] args)
         {
-           Console.WriteLine("Please enter a string:");
-           string userInput = Console.ReadLine(); //assignment operator. Collecting data from user.
-           if (userInput.Length > 0)
-           {
-               Console.WriteLine("The user entered a value.");
+           Console.WriteLine("Please tell us if you wan to add or subtract:");
+           string userOperator = Console.ReadLine();
+
+           if(userOperator == "add")
+             {
+                 Console.WriteLine("Please enter the first number:");
+                 // @ link https://stackoverflow.com/questions/1019793/how-can-i-convert-string-to-int
+                 int firstNum = Int32.Parse(Console.ReadLine ()); //convert the string to integer.
+                Console.WriteLine("Please enter the second number:");
+                 int secondNum = Int32.Parse(Console.ReadLine ());
+                //Calculate the result.
+                int result = firstNum + secondNum;
+                  Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, result);
            }
-           else
-           {
-                 Console.WriteLine("The user did not entered a value.");
            }
            }
+
         }
-    }
