@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atul\\documents\\projects\\c-sharp-intro\\c-sharp-intro.csproj": {}
+    "C:\\Users\\atul\\Documents\\Projects\\c-sharp-intro\\c-sharp-intro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atul\\documents\\projects\\c-sharp-intro\\c-sharp-intro.csproj": {
+    "C:\\Users\\atul\\Documents\\Projects\\c-sharp-intro\\c-sharp-intro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atul\\documents\\projects\\c-sharp-intro\\c-sharp-intro.csproj",
+        "projectUniqueName": "C:\\Users\\atul\\Documents\\Projects\\c-sharp-intro\\c-sharp-intro.csproj",
         "projectName": "c-sharp-intro",
-        "projectPath": "C:\\Users\\atul\\documents\\projects\\c-sharp-intro\\c-sharp-intro.csproj",
+        "projectPath": "C:\\Users\\atul\\Documents\\Projects\\c-sharp-intro\\c-sharp-intro.csproj",
         "packagesPath": "C:\\Users\\atul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atul\\documents\\projects\\c-sharp-intro\\obj\\",
+        "outputPath": "C:\\Users\\atul\\Documents\\Projects\\c-sharp-intro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atul\\AppData\\Roaming\\NuGet\\NuGet.Config",
